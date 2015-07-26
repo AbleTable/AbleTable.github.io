@@ -18,3 +18,4 @@ body {
 }
 
 .navbar {   font-family: 'Hammersmith One', sans-serif; }
+.jumbotron { padding: 0 !important; background-color: transparent;}
