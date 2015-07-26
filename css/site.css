@@ -16,3 +16,5 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+.navbar {   font-family: 'Hammersmith One', sans-serif; }
