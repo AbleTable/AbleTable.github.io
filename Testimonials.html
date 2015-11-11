@@ -33,50 +33,16 @@
   </head>
 
   <body role="document">
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Able Table</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li class="dropdown">
-              <a href="http://getbootstrap.com/examples/theme/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sample Menus <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Spring</a></li>
-                <li><a href="#">Summer</a></li>
-                <li><a href="#">Fall</a></li>
-                <li><a href="#">Winter</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Specialty</li>
-                <li><a href="#">Gluten Free</a></li>
-                <li><a href="#">Diabetic</a></li>
-                <li><a href="#">Weight Loss</a></li>
-              </ul>
-            </li>
-            <li class="active"><a href="Testimonials.html">Testimonials</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+
+    <div id="TestimonialsNav">
+      <!-- Insert fixed navbar -->
+      <div id="includeNav"></div>
+      <!-- /Insert fixed navbar -->
+    </div>
 
     <div class="container theme-showcase" role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron" style="height: 728px;">
         <p>Testimonials about Able Table...</p>
-      </div>
 
     </div> <!-- /container -->
 
@@ -95,6 +61,15 @@
 
   ga('create', 'UA-65617097-1', 'auto');
   ga('send', 'pageview');
+
+  $(document).ready(function() {
+    $(function(){
+      $("#includeNav").load("navigation.html"); 
+    });
+    $(function(){
+      $("#includeFoot").load("footer.html"); 
+    });
+  });
 
 </script>
 </html>
