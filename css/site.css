@@ -1,3 +1,30 @@
+/* --------------------------------- GENERAL STYLES */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a, a:hover,a:focus {text-decoration: none;}
+a:focus { outline: none;}
+.actives {background-color: #d7d7d7;}
+.clearboth {clear: both;}
+
+body {
+	color: #333333;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+p {
+	margin: 0;
+}
+.DisplayMobile {
+	display: none;
+}
+
+
+
+/* --------------------------------- SITE CLASSES */
 body {
   padding-top: 70px;
   padding-bottom: 30px;
@@ -18,5 +45,54 @@ body {
 }
 
 .navbar {   font-family: 'Hammersmith One', sans-serif; }
-.jumbotron { padding: 0 !important; background-color: transparent;}
 h1,h2,h3 { color: #004225;}
+
+
+
+/* --------------------------------- NAV CLASSES */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+    background-image: linear-gradient(to bottom, #DBDBDB 0px, #E2E2E2 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #555;
+    background-color: #E7E7E7;
+}
+
+/*HIGHLIGHT CORRECT TAB FOR DYNAMIC NAVIGATION*/
+#HomeNav #navbar #HomeTab a {
+    background-color: #E7E7E7;
+    background-image: linear-gradient(to bottom, #DBDBDB 0px, #E2E2E2 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
+}
+#AboutNav #navbar #AboutTab a {
+	background-color: #E7E7E7;
+    background-image: linear-gradient(to bottom, #DBDBDB 0px, #E2E2E2 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
+}
+#ServicesNav #navbar #ServicesTab a {
+	background-color: #E7E7E7;
+    background-image: linear-gradient(to bottom, #DBDBDB 0px, #E2E2E2 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
+}
+#TestimonialsNav #navbar #TestimonialsTab a {
+	background-color: #E7E7E7;
+    background-image: linear-gradient(to bottom, #DBDBDB 0px, #E2E2E2 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
+}
+#ContactNav #navbar #ContactTab a {
+	background-color: #E7E7E7;
+    background-image: linear-gradient(to bottom, #DBDBDB 0px, #E2E2E2 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
+}
+
+
+
+
+
