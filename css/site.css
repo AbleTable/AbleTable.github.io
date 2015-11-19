@@ -22,7 +22,12 @@ p {
 	display: none;
 }
 
-
+/* --------------------------------- BOOTSTRAP OVERRIDES */
+@media (min-width: 1200px) {
+  .container {
+      width: 970px;
+  }
+}
 
 /* --------------------------------- SITE CLASSES */
 body {
