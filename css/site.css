@@ -29,6 +29,10 @@ p {
   }
 }
 
+ol, ul {
+    margin-left: 30px;
+}
+
 /* --------------------------------- SITE CLASSES */
 body {
   padding-top: 70px;
