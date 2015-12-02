@@ -1,9 +1,20 @@
 /* --------------------------------- GENERAL STYLES */
+
+/* COLORS
+Orange - #cf4d01
+Green - #6f8507
+Yellow Green - #c7cf60
+*/
+
 * {
 	margin: 0px;
 	padding: 0px;
 }
-a, a:hover,a:focus {text-decoration: none;}
+a, a:hover,a:focus {
+  text-decoration: none;
+  color: #c7cf60;
+  text-decoration: none;
+}
 a:focus { outline: none;}
 .actives {background-color: #d7d7d7;}
 .clearboth {clear: both;}
@@ -11,12 +22,13 @@ a:focus { outline: none;}
 body {
 	color: #333333;
 	font-family: Arial,Helvetica,sans-serif;
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 14px;
+	line-height: 20px;
 }
 
 p {
-	margin: 0;
+	margin: 0 0 10px 0;
+  color: #666666;
 }
 .DisplayMobile {
 	display: none;
@@ -53,10 +65,22 @@ body {
   width: auto;
 }
 
-.navbar {   font-family: 'Hammersmith One', sans-serif; }
-h1,h2,h3 { color: #004225;}
+.navbar {
+  font-family: 'Hammersmith One', sans-serif; 
+}
 
+h1, h2, h3, h4 {
+  color: #6f8507;
+}
 
+.border {
+  border-top: 1px solid #c7cf60;
+  margin-top: 10px;
+}
+
+#HomeTitle {
+  text-align: center;
+}
 
 /* --------------------------------- NAV CLASSES */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
@@ -65,7 +89,7 @@ h1,h2,h3 { color: #004225;}
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #555;
+    color: #555555;
     background-color: #E7E7E7;
 }
 
