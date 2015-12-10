@@ -42,13 +42,29 @@ p {
 }
 
 ol, ul {
-    margin-left: 30px;
     color: #666666;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dropdown-menu {
+    min-width: 140px;
+    padding: 0;
 }
 
 /* --------------------------------- SITE CLASSES */
 body {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 
@@ -70,8 +86,16 @@ body {
   font-family: 'Hammersmith One', sans-serif; 
 }
 
-h1, h2, h3, h4 {
+#navbar ul {
+  padding-bottom: 0;
+}
+
+h1, h2, h3 {
   color: #6f8507;
+}
+
+h4 {
+  color: #c7cf60;
 }
 
 .border {
